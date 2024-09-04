@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absec Intern</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> <!-- Custom Styles -->
+</head>
+<body>
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-fan fa-2x"></i></div>
+                <h1 class="text-center">ABSEC Intern</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item"><a href="index.html" class="tm-nav-link">
+                        <i class="fas fa-home"></i>
+                        Acceuil
+                    </a></li>
+                    <li class="tm-nav-item active"><a href="post.html" class="tm-nav-link">
+                        <i class="fas fa-pen"></i>
+                        Nos Services 
+                    </a></li>
+                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        About Us
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="tm-mb-65">
+                <a href="https://facebook.com" class="tm-social-link">
+                    <i class="fab fa-facebook tm-social-icon"></i>
+                </a>
+                <a href="https://twitter.com" class="tm-social-link">
+                    <i class="fab fa-twitter tm-social-icon"></i>
+                </a>
+                <a href="https://instagram.com" class="tm-social-link">
+                    <i class="fab fa-instagram tm-social-icon"></i>
+                </a>
+                <a href="https://linkedin.com" class="tm-social-link">
+                    <i class="fab fa-linkedin tm-social-icon"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="services-section">
+            <div class="container">
+                <h2 class="section-title">Comment <span class="highlight">ABSEC</span> peut vous aider ?</h2>
+                <p class="section-description">Nos experts spécialisés en sécurité offensive se "mettent dans la peau des hackers" pour tester la robustesse réelle de vos applications et systèmes. Ils vous fournissent une feuille de route détaillée pour vous guider pas-à-pas dans la correction de vos failles et l'amélioration de votre niveau de sécurité.</p>
+                <div class="services">
+                    <div class="service-item">
+                        <h3 class="service-title">AUDIT ET TESTS D'INTRUSION</h3>
+                        <p class="service-description">Évaluer les pratiques et mesures de sécurité mises en œuvre au sein de l'entreprise au regard des bonnes pratiques de cybersécurité.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 class="service-title">CONSEIL ET ACCOMPAGNEMENT</h3>
+                        <p class="service-description">Accompagner à la mise en place de mesures de sécurité adaptées avec des solutions de sécurité adaptées.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3 class="service-title">SENSIBILISATION DES COLLABORATEURS</h3>
+                        <p class="service-description">Sensibiliser les collaborateurs aux menaces et risques de cybersécurité, ainsi qu'aux bonnes pratiques et aux premiers réflexes à avoir en cas d'attaque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section de commentaires ajoutée ici -->
+        <div>
+            <h2 class="tm-color-primary tm-post-title">Comments</h2>
+            <hr class="tm-hr-primary tm-mb-45">
+            <div id="get-comments">
+                <!-- Here we will append comments retrieved from Back-end-->
+            </div>
+            <form action="" class="mb-5 tm-comment-form">
+                <h2 class="tm-color-primary tm-post-title mb-4">Your comment</h2>
+                <div class="mb-4">
+                    <input class="form-control" id="name" name="name" placeholder="Your name" type="text">
+                </div>
+                <div class="mb-4">
+                    <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="6"></textarea>
+                </div>
+                <div class="text-right">
+                    <button id="post-comment" class="tm-btn tm-btn-primary tm-btn-small">Submit</button>
+                </div>
+                <div class="mb-4" id="post-comment-error">
+                </div>
+            </form>                          
+        </div>
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/absec.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="comments.js"></script>
+</body>
+</html>

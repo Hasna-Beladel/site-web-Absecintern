@@ -1,0 +1,609 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tm-header {
+    background: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #e3e6ea;
+}
+
+.tm-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tm-site-logo {
+    font-size: 2rem;
+}
+
+.tm-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.tm-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tm-nav-item {
+    margin: 0 15px;
+}
+
+.tm-nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.tm-nav-link i {
+    margin-right: 8px;
+}
+
+.tm-nav-item.active .tm-nav-link {
+    color: #007bff;
+}
+
+.tm-mb-65 {
+    margin-top: 65px;
+    text-align: center;
+}
+
+.tm-social-link {
+    margin: 0 10px;
+}
+
+.tm-social-icon {
+    font-size: 1.5rem;
+}
+
+.services-section {
+    padding: 40px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+}
+/* Add custom styles here to match the design */
+
+/* General Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tm-header {
+    background-color: #f8f9fa; /* Light background for header */
+    padding: 15px 0; /* Add padding to header */
+}
+
+.tm-nav {
+    background-color: #f8f9fa; /* Dark background for navigation */
+}
+
+.tm-nav .tm-nav-link {
+    color: #150202; /* White text color for navigation links */
+    margin: 0 10px; /* Horizontal margin between links */
+}
+
+.tm-nav .tm-nav-item.active .tm-nav-link {
+    font-weight: bold; /* Highlight active link */
+}
+
+.tm-main {
+    padding: 30px 0; /* Add vertical padding to the main section */
+}
+
+.tm-post-title {
+    margin-bottom: 20px; /* Add bottom margin to titles */
+}
+
+.tm-bg-gray {
+    background-color: #f8f9fa; /* Light gray background for sections */
+    padding: 20px; /* Add padding inside gray background sections */
+    margin-bottom: 30px; /* Add bottom margin to gray background sections */
+}
+
+.tm-line-height-short {
+    line-height: 1.6; /* Improve readability with line-height */
+}
+
+.tm-mb-45 {
+    margin-bottom: 45px; /* Add bottom margin */
+}
+
+.tm-mb-55 {
+    margin-bottom: 55px; /* Add bottom margin */
+}
+
+.tm-mb-60 {
+    margin-bottom: 60px; /* Add bottom margin */
+}
+
+.tm-mb-120 {
+    margin-bottom: 120px; /* Add bottom margin */
+}
+
+.tm-person {
+    margin-bottom: 20px; /* Add bottom margin for person section */
+}
+
+.img-fluid {
+    margin-bottom: 15px; /* Add bottom margin for images */
+}
+
+.tm-color-primary {
+    color: #007bff; /* Primary color for text */
+}
+
+.tm-color-gray {
+    color: #6c757d; /* Gray color for text */
+}
+
+.tm-copyright {
+    text-align: center; /* Center align the copyright text */
+    padding: 10px 0; /* Add padding to the footer */
+}
+
+/* css index */
+/* Header Styles */
+.tm-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tm-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    color: #333;
+}
+
+.tm-site-header {
+    text-align: center;
+}
+
+.tm-site-logo i {
+    color: #333;
+}
+
+.tm-nav {
+    display: flex;
+    align-items: center;
+}
+
+.tm-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tm-nav-item {
+    margin: 0 15px;
+}
+
+.tm-nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.tm-nav-link i {
+    margin-right: 8px;
+}
+
+.tm-nav-item.active .tm-nav-link {
+    color: #007bff;
+}
+
+.tm-social-link {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.tm-social-icon {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Main Content Styles */
+.tm-main {
+    padding: 20px 0;
+}
+
+.tm-row {
+    margin-bottom: 30px;
+}
+
+.tm-post-link {
+    display: block;
+    text-decoration: none;
+}
+
+.tm-post-link-inner {
+    position: relative;
+}
+
+.tm-post-link img {
+    width: 100%;
+    height: auto;
+}
+
+.tm-post-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+.tm-pt-30 {
+    padding-top: 30px;
+}
+
+.tm-mb-75 {
+    margin-bottom: 75px;
+}
+
+.tm-mb-100 {
+    margin-bottom: 100px;
+}
+
+.tm-hr-primary {
+    border-top: 2px solid #007bff;
+    margin: 20px 0;
+}
+
+.tm-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tm-btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.tm-btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.tm-paging-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tm-paging-item {
+    margin-right: 10px;
+}
+
+.tm-paging-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.tm-paging-item.active .tm-paging-link {
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.tm-copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    padding: 10px 0;
+}
+ 
+
+/* Header Styles */
+.tm-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tm-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    color: #333;
+}
+
+.tm-site-header {
+    text-align: center;
+}
+
+.tm-site-logo i {
+    color: #333;
+}
+
+.tm-nav {
+    display: flex;
+    align-items: center;
+}
+
+.tm-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tm-nav-item {
+    margin: 0 15px;
+}
+
+.tm-nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.tm-nav-link i {
+    margin-right: 8px;
+}
+
+.tm-nav-item.active .tm-nav-link {
+    color: #007bff;
+}
+
+.tm-social-link {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.tm-social-icon {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Main Content Styles */
+.services-section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #0056b3;
+}
+
+.section-description {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Ensures services are displayed vertically */
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%; /* Takes full width */
+    margin-bottom: 20px;
+}
+
+.service-title {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 16px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .service-item {
+        max-width: 100%;
+    }
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 15px; /* Add padding to the sides of the main container */
+}
+
+/* Header Styles */
+.tm-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Add margin-bottom to separate header from content */
+}
+
+.tm-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.tm-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.tm-nav-item {
+    margin: 0 15px;
+}
+
+.tm-mb-65 {
+    margin-bottom: 65px;
+}
+
+/* Main Content Styles */
+.tm-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; /* Add padding to the sides of the main content */
+}
+
+.tm-row {
+    margin-bottom: 30px; /* Add margin to the bottom of each row */
+}
+
+.tm-pt-30 {
+    padding-top: 30px;
+    text-align: justify; /* Justify text */
+}
+
+.tm-mt-100 {
+    margin-top: 100px;
+}
+
+.tm-mb-75 {
+    margin-bottom: 75px;
+}
+
+.tm-prev-next-wrapper,
+.tm-paging-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 50px; /* Add margin-top to separate footer from content */
+    padding-bottom: 30px;
+}
+
+.tm-color-gray {
+    color: #888;
+}
+
+hr {
+    margin: 30px 0; /* Add vertical spacing around horizontal rules */
+}
+
+
+.tm-comment-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tm-comment-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.tm-comment-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.tm-comment-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.tm-comment-form .tm-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tm-comment-form .tm-btn:hover {
+    background-color: #0056b3;
+}
+
+.tm-comment-form #post-comment-error {
+    color: red;
+    margin-top: 10px;
+}
