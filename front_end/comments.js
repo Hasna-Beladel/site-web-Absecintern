@@ -1,5 +1,5 @@
 // TODO: Remplacer la valeur de apiServerUrl avec l'url du serveur d'API
-const apiServerUrl = 'http://54.210.13.99:5000';
+const apiServerUrl = 'http://54.204.98.0:5000';
 
 function postComment(){
     const nameInput = document.getElementById("name");
